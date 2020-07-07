@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  restapi:
+    image: restapi
+    build: .
+    ports:
+      - 3000:3000
